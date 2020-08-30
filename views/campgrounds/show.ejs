@@ -32,7 +32,7 @@
                         <p>
                             <%= campground.description%>
                         </p>
-                        <p> <em>Submitted by</em>
+                        <p> <em>Uploaded by</em>
                             <strong> <%=campground.author.username%></strong>
                         </p>
                         <% if(currentUser && campground.author.id.equals(currentUser._id)){ %>
