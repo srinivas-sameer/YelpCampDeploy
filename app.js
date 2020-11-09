@@ -22,7 +22,7 @@ mongoose.set('useCreateIndex', true);
 mongoose.set('useUnifiedTopology', true);
 //mongoose.connect("mongodb://localhost/yelp_camp");
 
-mongoose.connect("mongodb+srv://srinivasasameer:cre@tive13@yelpcamp.nahlz.mongodb.net/yelpcamp?retryWrites=true&w=majority",{
+mongoose.connect("mongodb+srv://srinivasasameer:cre@tive1306@yelpcamp.nahlz.mongodb.net/yelpcamp?retryWrites=true&w=majority",{
     useNewUrlParser: true
 });
 
